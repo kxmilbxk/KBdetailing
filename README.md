@@ -42,7 +42,12 @@ KBdetailing/
 ├── faq.html # Sekcja FAQ
 └── README.md
 
+🪪 Licencja
+Projekt dostępny na licencji MIT. Możesz go swobodnie kopiować, modyfikować i używać, także komercyjnie.
 
+
+📬 Kontakt
+kamiltbak@outlook.com
 
 ## ▶️ Jak uruchomić projekt
 
@@ -51,12 +56,5 @@ KBdetailing/
 git clone https://github.com/twoj-user/KBdetailing.git
 
 
-🪪 Licencja
-Projekt dostępny na licencji MIT. Możesz go swobodnie kopiować, modyfikować i używać, także komercyjnie.
 
-
-
-
-📬 Kontakt
-kamiltbak@outlook.com
 
