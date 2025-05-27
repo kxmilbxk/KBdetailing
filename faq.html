@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DetailZone - Garage PREMIUM</title>
+
+  <!-- Style + Ikony Fontello -->
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="faq.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <a href="index.html">
+        <img src="img/logo.png" alt="Logo" />
+      </a>
+      <h1>DetailZone - Garage PREMIUM</h1>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://www.instagram.com/kxmilbxk/" target="_blank" rel="noopener">
+        <i class="icon-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/kamil.bak.182/" target="_blank" rel="noopener">
+        <i class="icon-facebook-squared"></i>
+      </a>
+    </div>
+  </header>
+
+  <main class="section faq">
+    <div class="container">
+      <h2>FAQ – Najczęściej zadawane pytania</h2>
+
+      <div class="faq-item">
+        <button class="faq-question">Czy muszę się umawiać na wizytę?</button>
+        <div class="faq-answer">
+          <p>Tak, pracujemy wyłącznie po wcześniejszym umówieniu się – dzięki temu poświęcamy każdemu klientowi 100% uwagi.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Ile trwa kompleksowy detailing?</button>
+        <div class="faq-answer">
+          <p>W zależności od zakresu usług – od 4 godzin do nawet 2 dni. Czas ustalamy indywidualnie przy wycenie.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Czy używacie własnych kosmetyków?</button>
+        <div class="faq-answer">
+          <p>Tak, korzystamy wyłącznie z profesjonalnych środków takich marek jak ADBL, CarPro, Fresso, KiurLab czy MrCleaner.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Czy oferujecie usługę door-to-door?</button>
+        <div class="faq-answer">
+          <p>Na ten moment nie – klient samodzielnie przyprowadza i odbiera auto ze studia.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>O nas</h3>
+        <p>DetailZone to miejsce, gdzie pasja spotyka się z precyzją. Specjalizujemy się w kompleksowym detailingu samochodowym.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Linki</h4>
+        <ul>
+          <li><a href="index.html#services">Realizacje</a></li>
+          <li><a href="index.html#offer">Oferta</a></li>
+          <li><a href="index.html#contact">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Social Media</h4>
+        <a href="https://www.instagram.com/kxmilbxk/" target="_blank"><i class="icon-instagram"></i></a>
+        <a href="https://www.facebook.com/kamil.bak.182/" target="_blank"><i class="icon-facebook-squared"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2025 DetailZone. Wszelkie prawa zastrzeżone.</div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const answer = button.nextElementSibling;
+        answer.classList.toggle('open');
+      });
+    });
+  </script>
+
+
+</body>
+</html>
